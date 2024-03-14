@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dab135cf-f4fd-4a96-9798-65549c9f5272" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/featurefiles/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/featurefiles/Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Resources/featurefiles/Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerClass/MyRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Step/defination/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Step/defination/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Step/defination/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunnerClass/MyRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunnerClass/MyRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Step/defination/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Step/defination/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Step/defination/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Step/defination/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Step/defination/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Step/defination/Search.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,10 +77,11 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Login">
+  <component name="RunManager" selected="JUnit.MyRunner">
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Resources/featurefiles/Login.feature" />
+      <option name="GLUE" value="Step.defination" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberBDDProject" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
@@ -124,6 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Resources/featurefiles/Search.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberBDDProject" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: Search" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Login with invalid email adddress and valid password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Resources/featurefiles/Login.feature" />
@@ -145,47 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Login without providing any credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Resources/featurefiles/Login.feature" />
-      <option name="GLUE" value="Step.defination" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberBDDProject" />
-      <option name="NAME_FILTER" value="^Login without providing any credentials$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login without providing any credentials$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Login without providing any credentials" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Register with mandatory fields" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Resources/featurefiles/Register.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberBDDProject" />
-      <option name="NAME_FILTER" value="^Register with mandatory fields$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Register with mandatory fields$&quot;" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Register with mandatory fields" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <shortenClasspath name="NONE" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -193,20 +164,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberBDDProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RunnerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RunnerClass" />
+      <option name="MAIN_CLASS_NAME" value="RunnerClass.MyRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: Login" />
       <item itemvalue="Cucumber Java.Scenario: Login with invalid email adddress and valid password" />
-      <item itemvalue="Cucumber Java.Scenario: Login without providing any credentials" />
-      <item itemvalue="Cucumber Java.Scenario: Register with mandatory fields" />
       <item itemvalue="Cucumber Java.Feature: Register" />
+      <item itemvalue="Cucumber Java.Feature: Search" />
+      <item itemvalue="JUnit.MyRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyRunner" />
+        <item itemvalue="Cucumber Java.Feature: Search" />
         <item itemvalue="Cucumber Java.Feature: Login" />
         <item itemvalue="Cucumber Java.Scenario: Login with invalid email adddress and valid password" />
         <item itemvalue="Cucumber Java.Feature: Register" />
-        <item itemvalue="Cucumber Java.Scenario: Register with mandatory fields" />
-        <item itemvalue="Cucumber Java.Scenario: Login without providing any credentials" />
       </list>
     </recent_temporary>
   </component>
